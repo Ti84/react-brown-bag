@@ -1,5 +1,6 @@
 # Introduction to React
-Created with create react app and Spectacle.
+Created with create react app and Spectacle. 
+Hosted on github and used gh-pages package to help me do that: http://Ti84.github.io/react-brown-bag
 By Shane Cook
 
 To run this locally:
