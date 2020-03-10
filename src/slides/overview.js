@@ -16,7 +16,7 @@ const Overview = () => (
       <ListItem margin="10px 0 0 0">What to learn before React</ListItem>
       {/* (Classes, Hooks, examples) */}
       <ListItem margin="10px 0 0 0">How to use React</ListItem>
-      <ListItem margin="10px 0 0 0">Where to go next?</ListItem>
+      <ListItem margin="10px 0 0 0">Where to go next</ListItem>
     </List>
   </Slide>
 );
