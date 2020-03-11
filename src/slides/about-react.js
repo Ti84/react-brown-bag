@@ -14,6 +14,7 @@ const AboutReact = () => (
       <ListItem margin="10px 0 0 0">Library used by Facebook, Twitter, Pinterest, Netflix, Carvana, Uber</ListItem>
       <ListItem margin="10px 0 0 0">Most used javascript tool, can practically find all problems on Google / Stack Overflow</ListItem>
       <ListItem margin="10px 0 0 0">Huge community</ListItem>
+      <ListItem margin="10px 0 0 0">Awesome ecosystem and blogs online about it, can even use Next.js / Gatsby.js to convert it into a full framework</ListItem>
       <ListItem margin="10px 0 0 0">JSX, ES2015+, CSS (Typescript, other preprocessors, css in js, etc)</ListItem>
     </List>
   </Slide>

@@ -7,7 +7,7 @@ import {
   ListItem
 } from 'spectacle';
 
-const AboutVue = () => (
+const Comparison = () => (
 
   // Why did I choose react?
   // I really like how it feels like you are writing javascript and not learning a new way of doing things like you have to for vue / React. I love the React community and the ability to just be able to google anything is amazing. However, I have not used Vue too much and I am excited to learn that one and Svelte. Vue is huge in China and growing way quicker than React did and everyone I have talked to who has tried it really loves using Vue.
@@ -31,4 +31,4 @@ const AboutVue = () => (
   </Slide>
 );
 
-export default AboutVue;
+export default Comparison;

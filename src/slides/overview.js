@@ -11,8 +11,7 @@ const Overview = () => (
   <Slide bgColor="primary">
     <Heading size={3} textColor="secondary">Overview</Heading>
     <List textColor="tertiary">
-      <ListItem>What is React?</ListItem>
-      <ListItem margin="10px 0 0 0">Why React?</ListItem>
+      <ListItem margin="10px 0 0 0">Current popular choices SPA frameworks / libraries</ListItem>
       <ListItem margin="10px 0 0 0">What to learn before React</ListItem>
       {/* (Classes, Hooks, examples) */}
       <ListItem margin="10px 0 0 0">How to use React</ListItem>
