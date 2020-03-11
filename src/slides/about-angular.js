@@ -13,6 +13,7 @@ const AboutAngular = () => (
     <List textColor="tertiary">
       <ListItem margin="10px 0 0 0">Framework used by Google, GM, Youtube, Microsoft, etc.</ListItem>
       <ListItem margin="10px 0 0 0">Highly Opinionated, Not flexible</ListItem>
+      <ListItem margin="10px 0 0 0">2 way bindings</ListItem>
       <ListItem margin="10px 0 0 0">All in one solution meant for larger applications</ListItem>
       <ListItem margin="10px 0 0 0">Typescript, Observables (rxjs), Injectables, Services, Components, Pipes, Modules, etc.</ListItem>
     </List>
