@@ -3,7 +3,15 @@
 }
 
 .img--lg {
-  width: 75vh;
+  width: 40vw;
+}
+
+.img--md {
+  width: 30vw;
+}
+
+.img--sm {
+  width: 25vw;
 }
 
 @keyframes rotation {

@@ -24,6 +24,7 @@ import ArrowFunctionSImage from './assets/arrowfunctions.svg'
 import ConstLet from './assets/constlet.svg';
 import ArrayMethods from './assets/arraymethods.svg';
 import Destructuring from './assets/destructuring.svg';
+import Modules from './assets/modules.svg';
 
 // Require CSS
 require('normalize.css');
@@ -61,6 +62,7 @@ const Presentation = () => (
         <ImageSlide imgAlt="arrow functions" imgRefSrc="https://carbon.now.sh/" img={ArrowFunctionSImage} imgDesc="Arrow Functions"></ImageSlide>
         <ImageSlide imgAlt="array methods" imgRefSrc="https://carbon.now.sh/" img={ArrayMethods} imgDesc="Array methods"></ImageSlide>
         <ImageSlide imgAlt="destructuring" imgRefSrc="https://carbon.now.sh/" img={Destructuring} imgDesc="Destructuring"></ImageSlide>
+        <ImageSlide imgAlt="modules" imgRefSrc="https://carbon.now.sh/" img={Modules} imgDesc="Modules" imgStyle="md"></ImageSlide>
       </Deck>
     );
 
