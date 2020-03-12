@@ -23,6 +23,7 @@ import ToolsUsageGraph from './assets/tool-graph.PNG';
 import ArrowFunctionSImage from './assets/arrowfunctions.svg'
 import ConstLet from './assets/constlet.svg';
 import ArrayMethods from './assets/arraymethods.svg';
+import Destructuring from './assets/destructuring.svg';
 
 // Require CSS
 require('normalize.css');
@@ -59,6 +60,7 @@ const Presentation = () => (
         <ImageSlide imgAlt="let const declarations" imgRefSrc="https://carbon.now.sh/" img={ConstLet} imgDesc="let / const"></ImageSlide>
         <ImageSlide imgAlt="arrow functions" imgRefSrc="https://carbon.now.sh/" img={ArrowFunctionSImage} imgDesc="Arrow Functions"></ImageSlide>
         <ImageSlide imgAlt="array methods" imgRefSrc="https://carbon.now.sh/" img={ArrayMethods} imgDesc="Array methods"></ImageSlide>
+        <ImageSlide imgAlt="destructuring" imgRefSrc="https://carbon.now.sh/" img={Destructuring} imgDesc="Destructuring"></ImageSlide>
       </Deck>
     );
 
