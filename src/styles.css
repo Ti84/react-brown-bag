@@ -3,7 +3,7 @@
 }
 
 .img--lg {
-  width: 40vw;
+  width: 45vw;
 }
 
 .img--md {
@@ -11,7 +11,11 @@
 }
 
 .img--sm {
-  width: 25vw;
+  width: 30vw;
+}
+
+div.spectacle-content {
+  max-height: 90vh;
 }
 
 @keyframes rotation {

@@ -25,6 +25,8 @@ import ConstLet from './assets/constlet.svg';
 import ArrayMethods from './assets/arraymethods.svg';
 import Destructuring from './assets/destructuring.svg';
 import Modules from './assets/modules.svg';
+import ES6Classes from './assets/es6class.svg';
+import ES5Classes from './assets/es5class.svg';
 
 // Require CSS
 require('normalize.css');
@@ -58,11 +60,30 @@ const Presentation = () => (
         <AboutReact></AboutReact>
         <WhyReact></WhyReact>
         <BeforeReact></BeforeReact>
+
+        {/* Default to writing const, only change to let when you know you are going to change the value */}
+        {/* Note that you can still mutate const, need to freeze the object to stop that */}
         <ImageSlide imgAlt="let const declarations" imgRefSrc="https://carbon.now.sh/" img={ConstLet} imgDesc="let / const"></ImageSlide>
+
+        {/* es5 uses function keyword, parenthesis and params inside if you need them, then whatever you want the function to do inside */}
+        {/* => essentially just replaces the function keyword */}
+        {/* even with return keyword you can use parenthesis for returning multiple lines at one time, important for jsx */}
         <ImageSlide imgAlt="arrow functions" imgRefSrc="https://carbon.now.sh/" img={ArrowFunctionSImage} imgDesc="Arrow Functions"></ImageSlide>
+
+        {/* Probably the best update from es6 */}
         <ImageSlide imgAlt="array methods" imgRefSrc="https://carbon.now.sh/" img={ArrayMethods} imgDesc="Array methods"></ImageSlide>
+
+        {/* Destructuring is just an easy way to keep your code clean and easy to read */}
+        {/* keys that you want the value of on the left inside brackets, object you want to destructure on the right side */}
+        {/* can set defaults on function params as well without destructuring now with es6 as well */}
         <ImageSlide imgAlt="destructuring" imgRefSrc="https://carbon.now.sh/" img={Destructuring} imgDesc="Destructuring"></ImageSlide>
-        <ImageSlide imgAlt="modules" imgRefSrc="https://carbon.now.sh/" img={Modules} imgDesc="Modules" imgStyle="md"></ImageSlide>
+
+        {/* Named exports need brackets around them and you can have multiple, can only have one default export and it does not beed brackets around it when importing */}
+        <ImageSlide imgAlt="modules" imgRefSrc="https://carbon.now.sh/" img={Modules} imgDesc="Modules" imgStyle='md'></ImageSlide>
+
+        {/* Easier to write / read */}
+        <ImageSlide imgAlt="es6 classes" imgRefSrc="https://carbon.now.sh/" img={ES6Classes} imgDesc="es6 classes"></ImageSlide>
+        <ImageSlide imgAlt="es5 classes" imgRefSrc="https://carbon.now.sh/" img={ES5Classes} imgDesc="es5 classes"></ImageSlide>
       </Deck>
     );
 
