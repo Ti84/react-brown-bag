@@ -15,21 +15,25 @@ const WhyReact = () => (
     <List textColor="tertiary">
       {/* Since the community is so big, it is hard to run into a problem no one has solved yet */}
       {/* Easy to get involved in the community and contribute to open source projects */}
-      <ListItem margin="10px 0 0 0">Very strong community</ListItem>
+      <ListItem margin="10px 0 0 0">Very strong community***</ListItem>
 
       {/* A ton of libraries were made for React given how large the community is, so the options are endless */}
       {/* ex. for a while instead of using React router it was good to use a different one because it was more compliant to a11y. */}
       <ListItem margin="10px 0 0 0">Great ecosystem</ListItem>
 
-      {/* You write Javascript instead of Angular */}
+      {/* You write Javascript instead of Angular, you keep your Javascript knowledge up to date because you are using the latest features of ecmascript */}
       <ListItem margin="10px 0 0 0">You write Javascript (or TS)</ListItem>
+
+      {/* No breaking changes, the team behind React makes sure the Angular 2 stuff doesn't happen again, ex. React Hooks */}
+      {/* Good deprecation time and things rarely deprectate. */}
+      <ListItem margin="10px 0 0 0">Long time stability</ListItem>
+
+      {/* Takes effort due to lack of given structure, but with a proper style guide developed, React can scale as well as Angular can and you can tailor that style guide more for your team since it wasn't provided for you like it was with Angular. */}
       <ListItem margin="10px 0 0 0">Scales well</ListItem>
 
       {/* No framework so you can do whatever you want with it, just if you want a scalable app just make sure you have a style guide and avoid anti patterns */}
       <ListItem margin="10px 0 0 0">Flexible</ListItem>
-  
-      {/* No breaking changes, the team behind React makes sure the Angular 2 stuff doesn't happen again, ex. React Hooks */}
-      <ListItem margin="10px 0 0 0">Stable</ListItem>
+
     </List>
   </Slide>
 );

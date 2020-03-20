@@ -84,6 +84,15 @@ const Presentation = () => (
         {/* Easier to write / read */}
         <ImageSlide imgAlt="es6 classes" imgRefSrc="https://carbon.now.sh/" img={ES6Classes} imgDesc="es6 classes"></ImageSlide>
         <ImageSlide imgAlt="es5 classes" imgRefSrc="https://carbon.now.sh/" img={ES5Classes} imgDesc="es5 classes"></ImageSlide>
+        {/* 
+        - Thinking in React (Show page with components on it and describe how you compose small logical pieces of the ui together to create a bigger more complex ui)
+        - Page we will build using React
+        - Getting App Started - Show npx create-react-app, app component, how it just replaces root element, etc.
+        - First Component - Mention JSX and how you can omit it but it is a lot more difficult to write React without it and you should use it. 
+        - Add first component to app component - explain how generally each page would correspond to a route but in our case we have no router for the app since we hadn't added one.
+        - Second component
+        */}
+
       </Deck>
     );
 
