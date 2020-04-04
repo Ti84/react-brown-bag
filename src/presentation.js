@@ -27,6 +27,8 @@ import Destructuring from './assets/destructuring.svg';
 import Modules from './assets/modules.svg';
 import ES6Classes from './assets/es6class.svg';
 import ES5Classes from './assets/es5class.svg';
+import WhatIsAComponent from './slides/what-is-component';
+import ClassvsFunction from './slides/classvsfunction';
 
 // Require CSS
 require('normalize.css');
@@ -86,13 +88,15 @@ const Presentation = () => (
         <ImageSlide imgAlt="es5 classes" imgRefSrc="https://carbon.now.sh/" img={ES5Classes} imgDesc="es5 classes"></ImageSlide>
         {/* 
         - Thinking in React (Show page with components on it and describe how you compose small logical pieces of the ui together to create a bigger more complex ui)
-        - Page we will build using React
-        - Getting App Started - Show npx create-react-app, app component, how it just replaces root element, etc.
-        - First Component - Mention JSX and how you can omit it but it is a lot more difficult to write React without it and you should use it. 
-        - Add first component to app component - explain how generally each page would correspond to a route but in our case we have no router for the app since we hadn't added one.
-        - Second component
+        - Class vs Function components (explain that you should still know how to write old react, or at least understand it because some things may not work with functional components yet - like the global error handler)
+        - Shane will now attempt live coding slide.
+        - What to learn next - Advanced topics like: Custom hooks, Routing, the other hooks, useReducer / Context (Redux replacement), Portals, Fragments
+        - Where to go next - Link Wes / Front end masters
+        - Getting involved with the React community - Meetups, People to follow, Dev.to, etc.
+        - Things to remember - Front end is huge, Try not to listen to heavy opinionated people if you like Angular, Vue, etc are all good, When you learn things take it one step at a time - The Front end is constantly changing and its a huge ecosystem so dont try to learn it all.
         */}
-
+        <WhatIsAComponent></WhatIsAComponent>
+        <ClassvsFunction></ClassvsFunction>
       </Deck>
     );
 
