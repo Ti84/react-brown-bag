@@ -18,6 +18,32 @@ div.spectacle-content {
   max-height: 90vh;
 }
 
+.full-width {
+  width: 100vw;
+  margin-left: -20vw;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  align-items: center;
+}
+
+.two-col img {
+  width: 100%;
+  display: block;
+}
+
+.two-col div:first-child {
+  grid-column: 2 / 5;
+  align-self: stretch;
+}
+
+.two-col div:last-child {
+  grid-column: 6 / 9;
+  align-self: stretch;
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
