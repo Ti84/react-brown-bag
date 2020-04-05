@@ -29,6 +29,7 @@ import ES6Classes from './assets/es6class.svg';
 import ES5Classes from './assets/es5class.svg';
 import WhatIsAComponent from './slides/what-is-component';
 import ClassvsFunction from './slides/classvsfunction';
+import StatevsProps from './slides/statevsprops';
 
 // Require CSS
 require('normalize.css');
@@ -97,6 +98,7 @@ const Presentation = () => (
         */}
         <WhatIsAComponent></WhatIsAComponent>
         <ClassvsFunction></ClassvsFunction>
+        <StatevsProps></StatevsProps>
       </Deck>
     );
 
