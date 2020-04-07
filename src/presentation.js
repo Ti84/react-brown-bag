@@ -33,6 +33,7 @@ import StatevsProps from './slides/statevsprops';
 import Diagram from './assets/diagram.PNG';
 import AppExample from './assets/react-app-example.PNG';
 import HighlightedAppExample from './assets/highlighted-app-example.png';
+import LiveCoding from './slides/live-coding';
 
 // Require CSS
 require('normalize.css');
@@ -105,6 +106,7 @@ const Presentation = () => (
         <ImageSlide imgAlt="react data flow" imgRefSrc="inspired by: https://www.youtube.com/watch?v=NJWI1b1upps" img={Diagram} imgDesc="React Data Flow Example"></ImageSlide>
         <ImageSlide imgAlt="react example app page" imgRefSrc="codepen.io" img={AppExample} imgDesc="What We Will Build"></ImageSlide>
         <ImageSlide imgAlt="highlighted react example app page" imgRefSrc="codepen.io" img={HighlightedAppExample} imgDesc="What We Will Build"></ImageSlide>
+        <LiveCoding></LiveCoding>
       </Deck>
     );
 
