@@ -106,7 +106,12 @@ const Presentation = () => (
         <ImageSlide imgAlt="react data flow" imgRefSrc="inspired by: https://www.youtube.com/watch?v=NJWI1b1upps" img={Diagram} imgDesc="React Data Flow Example"></ImageSlide>
         <ImageSlide imgAlt="react example app page" imgRefSrc="codepen.io" img={AppExample} imgDesc="What We Will Build"></ImageSlide>
         <ImageSlide imgAlt="highlighted react example app page" imgRefSrc="codepen.io" img={HighlightedAppExample} imgDesc="What We Will Build"></ImageSlide>
+        {/* Refine this down and practice explaining as you code - learn how it renders and stuff */}
         <LiveCoding></LiveCoding>
+        {/* Where to go next (advanced concepts like effects, context, custom hooks, etc) */}
+        {/* Where to learn React / other front end technologies - ES6 / React/ Vue / etc. */}
+        {/* Devs to follow on Twitter - explain how you see things you normally wouldn't and expand following from there */}
+        {/* Podcasts */}
       </Deck>
     );
 
