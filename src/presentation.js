@@ -34,6 +34,7 @@ import Diagram from './assets/diagram.PNG';
 import AppExample from './assets/react-app-example.PNG';
 import HighlightedAppExample from './assets/highlighted-app-example.png';
 import LiveCoding from './slides/live-coding';
+import AdvancedTopics from './slides/advanced-topics';
 
 // Require CSS
 require('normalize.css');
@@ -108,10 +109,11 @@ const Presentation = () => (
         <ImageSlide imgAlt="highlighted react example app page" imgRefSrc="codepen.io" img={HighlightedAppExample} imgDesc="What We Will Build"></ImageSlide>
         {/* Refine this down and practice explaining as you code - learn how it renders and stuff */}
         <LiveCoding></LiveCoding>
-        {/* Where to go next (advanced concepts like effects, context, custom hooks, etc) */}
+        {/* Where to go next (advanced concepts like effects, containers (children property), context, custom hooks, etc) */}
         {/* Where to learn React / other front end technologies - ES6 / React/ Vue / etc. */}
         {/* Devs to follow on Twitter - explain how you see things you normally wouldn't and expand following from there */}
         {/* Podcasts */}
+        <AdvancedTopics></AdvancedTopics>
       </Deck>
     );
 

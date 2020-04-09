@@ -16,11 +16,11 @@ const ClassvsFunction = () => (
       <div className="full-width">
         <div className="two-col">
           <div>
-            <Heading size={4} textColor="tertiary">Function</Heading>
+            <Heading size={4} textColor="tertiary">Class</Heading>
             <img src={classComponent} alt="class comp"></img>
           </div>
           <div>
-            <Heading size={4} textColor="tertiary">Class</Heading>
+            <Heading size={4} textColor="tertiary">Function</Heading>
             <img src={functionComponent} alt="function comp"></img>
           </div>
         </div>
