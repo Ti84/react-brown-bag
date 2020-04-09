@@ -35,6 +35,9 @@ import AppExample from './assets/react-app-example.PNG';
 import HighlightedAppExample from './assets/highlighted-app-example.png';
 import LiveCoding from './slides/live-coding';
 import AdvancedTopics from './slides/advanced-topics';
+import WhereToLearnMore from './slides/where-to-learn-more';
+import PeopleToFollow from './slides/people-to-follow';
+import Misc from './slides/Misc';
 
 // Require CSS
 require('normalize.css');
@@ -92,21 +95,12 @@ const Presentation = () => (
         {/* Easier to write / read */}
         <ImageSlide imgAlt="es6 classes" imgRefSrc="https://carbon.now.sh/" img={ES6Classes} imgDesc="es6 classes"></ImageSlide>
         <ImageSlide imgAlt="es5 classes" imgRefSrc="https://carbon.now.sh/" img={ES5Classes} imgDesc="es5 classes"></ImageSlide>
-        {/* 
-        - Thinking in React (Show page with components on it and describe how you compose small logical pieces of the ui together to create a bigger more complex ui)
-        - Class vs Function components (explain that you should still know how to write old react, or at least understand it because some things may not work with functional components yet - like the global error handler)
-        - Shane will now attempt live coding slide.
-        - What to learn next - Advanced topics like: Custom hooks, Routing, the other hooks, useReducer / Context (Redux replacement), Portals, Fragments
-        - Where to go next - Link Wes / Front end masters
-        - Getting involved with the React community - Meetups, People to follow, Dev.to, etc.
-        - Things to remember - Front end is huge, Try not to listen to heavy opinionated people if you like Angular, Vue, etc are all good, When you learn things take it one step at a time - The Front end is constantly changing and its a huge ecosystem so dont try to learn it all.
-        */}
         <WhatIsAComponent></WhatIsAComponent>
         <ClassvsFunction></ClassvsFunction>
         <StatevsProps></StatevsProps>
-        <ImageSlide imgAlt="react data flow" imgRefSrc="inspired by: https://www.youtube.com/watch?v=NJWI1b1upps" img={Diagram} imgDesc="React Data Flow Example"></ImageSlide>
         <ImageSlide imgAlt="react example app page" imgRefSrc="codepen.io" img={AppExample} imgDesc="What We Will Build"></ImageSlide>
         <ImageSlide imgAlt="highlighted react example app page" imgRefSrc="codepen.io" img={HighlightedAppExample} imgDesc="What We Will Build"></ImageSlide>
+        <ImageSlide imgAlt="react data flow" imgRefSrc="inspired by: https://www.youtube.com/watch?v=NJWI1b1upps" img={Diagram} imgDesc="React Data Flow Example"></ImageSlide>
         {/* Refine this down and practice explaining as you code - learn how it renders and stuff */}
         <LiveCoding></LiveCoding>
         {/* Where to go next (advanced concepts like effects, containers (children property), context, custom hooks, etc) */}
@@ -114,6 +108,9 @@ const Presentation = () => (
         {/* Devs to follow on Twitter - explain how you see things you normally wouldn't and expand following from there */}
         {/* Podcasts */}
         <AdvancedTopics></AdvancedTopics>
+        <WhereToLearnMore></WhereToLearnMore>
+        <PeopleToFollow></PeopleToFollow>
+        <Misc></Misc>
       </Deck>
     );
 
