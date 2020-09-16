@@ -1,7 +1,7 @@
 {
   "main.css": "/react-brown-bag/static/css/main.48d9b369.chunk.css",
-  "main.js": "/react-brown-bag/static/js/main.57d77606.chunk.js",
-  "main.js.map": "/react-brown-bag/static/js/main.57d77606.chunk.js.map",
+  "main.js": "/react-brown-bag/static/js/main.a13e2c8e.chunk.js",
+  "main.js.map": "/react-brown-bag/static/js/main.a13e2c8e.chunk.js.map",
   "static/css/1.d458b1fd.chunk.css": "/react-brown-bag/static/css/1.d458b1fd.chunk.css",
   "static/js/1.18589483.chunk.js": "/react-brown-bag/static/js/1.18589483.chunk.js",
   "static/js/1.18589483.chunk.js.map": "/react-brown-bag/static/js/1.18589483.chunk.js.map",
@@ -23,6 +23,6 @@
   "static/css/main.48d9b369.chunk.css.map": "/react-brown-bag/static/css/main.48d9b369.chunk.css.map",
   "static/css/1.d458b1fd.chunk.css.map": "/react-brown-bag/static/css/1.d458b1fd.chunk.css.map",
   "index.html": "/react-brown-bag/index.html",
-  "precache-manifest.38e51c4fdb1a25ec8921d3dd0cb78740.js": "/react-brown-bag/precache-manifest.38e51c4fdb1a25ec8921d3dd0cb78740.js",
+  "precache-manifest.f8bb3abe6dea74a8365125e604a18a9e.js": "/react-brown-bag/precache-manifest.f8bb3abe6dea74a8365125e604a18a9e.js",
   "service-worker.js": "/react-brown-bag/service-worker.js"
 }
