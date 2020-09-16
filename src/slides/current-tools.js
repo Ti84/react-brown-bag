@@ -9,7 +9,7 @@ import {
 
 const CurrentSPATools = () => (
   <Slide bgColor="primary">
-  <Heading size={3} textColor="secondary">Current Popular Tools</Heading>
+  <Heading size={3} textColor="secondary">Current popular frontend "frameworks"</Heading>
     <List textColor="tertiary">
       <ListItem margin="10px 0 0 0">React: Backed by Facebook (2013)</ListItem>
       {/* Was super popular in China for a while, now it is taking off in US and other countries */}

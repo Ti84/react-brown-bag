@@ -19,7 +19,6 @@ import WhyReact from './slides/why-react';
 import CurrentSPATools from './slides/current-tools';
 import BeforeReact from './slides/before-react';
 
-import ToolsUsageGraph from './assets/tool-graph.PNG';
 import ArrowFunctionSImage from './assets/arrowfunctions.svg'
 import ConstLet from './assets/constlet.svg';
 import ArrayMethods from './assets/arraymethods.svg';
@@ -65,7 +64,6 @@ const Presentation = () => (
         <IntroSlide></IntroSlide> 
         <Overview></Overview>
         <CurrentSPATools></CurrentSPATools>
-        <ImageSlide imgAlt="usage graph" imgRefSrc="https://ashleynolan.co.uk/blog/frontend-tooling-survey-2019-results" img={ToolsUsageGraph} imgDesc="JavaScript Tools by Use"></ImageSlide>
         <AboutAngular></AboutAngular>
         <AboutVue></AboutVue>
         <AboutReact></AboutReact>
